@@ -1,6 +1,10 @@
 def get_numeric_value(prompt):
     while True:
         value = input(prompt)
+        if "'a'" in prompt and value.isdigit():
+            if int(value) == 0:
+                print("The value of 'a' can not be equal to zero!!")
+                continue
         if is_valid_number(value):
             return float(value)
 
