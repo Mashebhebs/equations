@@ -23,3 +23,25 @@ class LinearEquationTestCase(TestCase):
 
         # Test invalid negative number --5
         self.assertFalse(is_valid_number("--5"))
+
+    def test_is_valid_number_valid_positive_number(self):
+
+        # Test using a valid positive number
+        self.assertTrue(is_valid_number("5"))
+
+    def test_is_valid_number_valid_negative_number(self):
+
+        # Test using a valid positive number
+        self.assertTrue(is_valid_number("-5"))
+
+    def test_is_valid_number_valid_fraction(self):
+
+        # Test using a valid positive number
+        self.assertTrue(is_valid_number("1/5"))
+
+    def test_is_valid_number_valid_decimal_number(self):
+
+        # Test for a valid decimal number
+
+        self.assertTrue(is_valid_number("0.5"))
+        self.assertTrue(is_valid_number("-0.8"))
