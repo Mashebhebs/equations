@@ -2,7 +2,7 @@ Progressive Equation Solver
 
 Bash
 
-git clone
+git clone https://github.com/Mashebhebs/equations.git
 
 python solver.py
 
