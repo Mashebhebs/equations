@@ -4,15 +4,13 @@ Bash
 
 git clone https://github.com/Mashebhebs/equations.git
 
-python solver.py
+python solve_linear_equations.py
+python solve_quadratic_equations.py
 
 Features
 
-Solves valid linear equations in standard form (ax + b = 0) Text-based user interface Clear output
-
-Future Developments
-
-Implementation of quadratic equation solver Support for higher order equations Graphical User Interface Advanced equation manipulation features
+Solves valid linear equations in standard form (ax + b = 0) Text-based user interface Clear output.
+Solves valid quadratic equations in standard form (ax^2 + bx + c = 0) Text-based user interface clear output.
 
 Contributing
 
