@@ -1,5 +1,5 @@
 from unittest import TestCase
-from linear_equations import *
+from get_numericial_value import *
 
 class LinearEquationTestCase(TestCase):
     def test_is_valid_number_0_division(self):

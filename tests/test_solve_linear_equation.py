@@ -1,4 +1,4 @@
-from solver import *
+from solve_linear_equations import *
 import unittest
 
 class SolverTestCase(unittest.TestCase):

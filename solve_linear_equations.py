@@ -1,4 +1,4 @@
-from linear_equations import *
+from get_numericial_value import *
 
 def solve_equation(a,b):
     try:
